@@ -1,0 +1,116 @@
+<HTML>
+    <head>
+        <title>Web Lab</title>
+    </head>
+    <body>
+        <h1>Welcome to the Web Lab</h1>
+        <p>This is a simple web page for testing purposes.We are going to test out tables 
+            and forms today.
+        </p>
+    
+    <form action="examples.com" method="get">
+        <img src="C:\Users\dhama\OneDrive\Pictures\smiley face.png" alt="Rook" height="200" width="200" align="right">
+        <h2>Section-1,Personal Information</h2>
+        <label><b>Username *</b> (Maximum 12 Characters)</label>
+        <input type="text" name="username" placeholder="Enter your username" maxlength="12" required="required">
+        <br>
+        <hr>
+        <label>Gender *</label>
+        <input type="radio" name="gender" value="male" required="required"> Male
+        <input type="radio" name="gender" value="female" required="required"> Female
+        <br>
+        <hr>
+        <label>Password *</label>
+        <input type="password" name="password" maxlength="5" required="required">
+        <br>
+        <hr>
+        <label>Email *</label>
+        <input type="email" name="email" required="required">
+        <br>
+        <hr>
+        <label>Address *</label>
+        <input type="text" name="address" required="required">
+        <br><br>
+        <label> Street/locality/landmark</label>
+        <input type="text" name="street">
+        <br>
+        <hr>
+        <label>Pin code *</label>
+        <input type="number" name="pincode" required="required">
+        <br>
+        <hr>
+         <label> Country *</label>
+         <select name="country" required="required">
+            <option value="India"> India </option>
+            <option value="USA"> USA </option>
+            <option value="UK"> UK </option>
+            <option value="Australia"> Australia </option>
+        </select>
+        <br><br>
+        <hr>
+        <label>Choose your device</label>
+        <select name="devices">
+            <option value="Mac"> Mac </option>
+            <option value="Windows"> Windows </option>
+            <option value="Linux"> Linux </option>
+            <option value="android"> Android </option>
+        </select>
+        <br>
+        <hr>
+        <label>Choose your course</label>
+        <input type="checkbox" name="course" value="Web Development" required="required"> Web Development
+        <input type="checkbox" name="course" value="Data Science"> Data Science
+        <input type="checkbox" name="course" value="Cyber Security"> Cyber Security
+        <br>
+        <hr>
+        <label>Choose your musical instrument</label>
+        <br>
+        <hr>
+        <select name="Musical instruments" multiple="multiple">
+            <option value="Guitar"> Guitar </option>
+            <option value="Piano"> Piano </option>
+            <option value="Drums"> Drums </option>
+            <option value="Violin"> Violin </option>
+        </select>
+    
+        <br><br>
+       
+        <label>Upload your image</label>
+        <input type="file" name="image">
+        <br>
+        <hr>
+         <input type="submit" value="upload">
+        <br><br>
+        <hr>
+        <img src="C:\Users\dhama\OneDrive\Pictures\rook.jpg" alt="Chess rook standing upright as a solitary game piece, displayed against a simple background" height="200" width="200" align="left">
+        <br><br><br>
+        <b>Enter Your Academic Marks</b>
+        <br>
+        <hr>
+        <table>
+            <tr>
+                <th colspan="2">Maths</th>
+                <th colspan="2">Science</th>
+                <th colspan="2">English</th>
+                <th colspan="2">History</th>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="number" ></td>
+                <td colspan="2"><input type="number" ></td>
+                <td colspan="2"><input type="number" ></td>
+                <td colspan="2"><input type="number" ></td>
+            </tr>
+            <b>Term 1</b>
+             <tr>
+                <td colspan="2"><input type="number" ></td>
+                <td colspan="2"><input type="number" ></td>
+                <td colspan="2"><input type="number" ></td>
+                <td colspan="2"><input type="number" ></td>
+            </tr>
+        </table>
+
+    </body>
+
+    </form>
+
+</HTML>
